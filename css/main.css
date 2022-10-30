@@ -1,0 +1,514 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap {
+    max-width: 1170px;
+    min-width: 800px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+/*********************************************/
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 64px;
+}
+
+header .logo {
+    font-size: 48px;
+    letter-spacing: 1px;
+    color: #a52424;
+    font-weight: 400;
+    font-family: "Pacifico", sans-serif;
+}
+
+header nav {
+    max-width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav a {
+    margin: 0 10px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 23px;
+    color: #101010;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+
+header .phone {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 23px;
+    color: #a52424;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    text-align: right;
+}
+
+/**************************************/
+
+.section-intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 46px;
+}
+
+.section-intro h1 {
+    font-size: 72px;
+    letter-spacing: 7px;
+    color: #232323;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 90px;
+}
+
+.section-intro h5 {
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 31px;
+    color: #101010;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 22px;
+}
+
+.section-intro a {
+    width: 336px;
+    height: 60px;
+    display: inline-block;
+    background-color: #ffffff;
+    border: 1px solid #a52424;
+    line-height: 60px;
+    font-size: 18px;
+    color: #a52424;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 80px;
+}
+
+/**************************************/
+
+.section-about {
+    padding: 80px 0;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-about h2 {
+    font-size: 64px;
+    letter-spacing: 3px;
+    color: #232323;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    /*margin-bottom: 20px;*/
+}
+
+.section-about h5 {
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 31px;
+    color: #a52424;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.section-about .left-box {
+    width: 343px;
+    height: 561px;
+    filter: drop-shadow(0px 6px 5px rgba(0, 0, 0, 0.05));
+    background-color: #ffffff;
+    margin-top: 40px;
+}
+
+.section-about p {
+    width: 674px;
+    height: 232px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 23px;
+    color: #232323;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+}
+
+.section-about .right-box {
+    width: 567px;
+    height: 330px;
+    filter: drop-shadow(0px 6px 5px rgba(0, 0, 0, 0.05));
+    background-color: #ffffff;
+}
+
+.section-about .left-box img {
+    margin-top: 50px;
+    position: relative;
+    left: 100px;
+}
+
+.section-about .left-box h5 {
+    margin-top: 50px;
+    position: relative;
+    left: 100px;
+}
+
+.section-about .right-box {
+    position: relative;
+    left: 100px;
+    margin-top: -30px;
+}
+
+.section-about .right-box img {
+    margin-top: 35px;
+    position: absolute;
+    left: -100px;
+}
+
+/***********************************/
+
+.section-portfolio {
+    padding: 80px 0;
+}
+
+.section-portfolio h2 {
+    font-size: 64px;
+    letter-spacing: 3px;
+    color: #232323;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 50px;
+}
+
+.section-portfolio h5 {
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 31px;
+    color: #101010;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.section-portfolio p {
+    width: 377px;
+    height: 46px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 23px;
+    color: #101010;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 40px;
+}
+
+.section-portfolio a {
+    background-color: #ffffff;
+    border: 1px solid #a52424;
+    display: inline-block;
+    width: 202px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+    color: #a52424;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.section-portfolio .portfolio-items {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+/**********************************************/
+
+.section-prices {
+    padding: 80px 0;
+}
+
+.section-prices h2 {
+    font-size: 64px;
+    letter-spacing: 3px;
+    color: #232323;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 150px;
+}
+
+.section-prices h5 {
+    font-size: 24px;
+    color: #a52424;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-prices h3 {
+    font-size: 36px;
+    color: #a52424;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+}
+
+.section-prices a {
+    background-color: #ffffff;
+    border: 1px solid #a52424;
+    display: inline-block;
+    width: 249px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+    color: #a52424;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+.section-prices .price-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-prices .price-item {
+    width: 509px;
+    height: 467px;
+    padding: 210px 42px 25px;
+    filter: drop-shadow(0px 6px 5px rgba(0, 0, 0, 0.05));
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.section-prices .price-item img {
+    width: 290px;
+    height: 290px;
+    filter: drop-shadow(2px 4px 5px rgba(35, 35, 35, 0.15));
+    position: absolute;
+    top: -100px;
+}
+
+.section-prices .tariff-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.section-prices .tariff-left {
+    text-align: left;
+    font-size: 18px;
+    color: #232323;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    flex-basis: 80%;
+    margin: 5px 0;
+}
+
+.section-prices .tariff-right {
+    text-align: right;
+    font-size: 18px;
+    color: #232323;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    flex-basis: 20%;
+    margin: 5px 0;
+}
+
+.section-prices .order-items {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+/**********************************************/
+
+.section-signup {
+    padding: 80px 0;
+}
+
+.section-signup h2 {
+    font-size: 64px;
+    letter-spacing: 3px;
+    color: #232323;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 50px;
+}
+
+.section-signup .signup-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-signup .signup-images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.section-signup .signup-items img:nth-child(2) {
+    position: relative;
+    left: -50px;
+}
+
+.section-signup .signup-form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.section-signup input[type="submit"] {
+    width: 476px;
+    height: 60px;
+    background-color: #ffffff;
+    border: 1px solid #a52424;
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #a52424;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.section-signup input[type="text"],
+.section-signup input[type="email"] {
+    width: 476px;
+    height: 60px;
+    background-color: #ffffff;
+    border: 1px solid lightgrey;
+
+    padding: 23px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 23px;
+    color: #232323;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.section-signup textarea {
+    width: 476px;
+    height: 221px;
+    background-color: #ffffff;
+    border: 1px solid lightgrey;
+    resize: none;
+
+    padding: 23px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 23px;
+    color: #232323;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+/********************************************/
+
+footer {
+    border-top: 1px solid lightgrey;
+}
+
+footer .wrap {
+    height: 157px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .logo {
+    font-size: 48px;
+    letter-spacing: 2px;
+    color: #a52424;
+    font-weight: 400;
+    font-family: "Pacifico", sans-serif;
+}
+
+footer nav {
+    width: 50%;
+    display: flex;
+    column-gap: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .phone {
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 31px;
+    color: #a52424;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+}
+
+/*****************************************************/
+
+@media screen and (max-width: 1090px) {
+  h1, h2 {
+    text-align: center;
+  }
+  .section-intro {
+      flex-direction: column;
+      align-items: center;
+  }
+  .section-about .about-items {
+      flex-direction: column;
+      align-items: center;
+  }
+  .section-portfolio .portfolio-items {
+      flex-direction: column;
+      align-items: center;
+  }
+    .section-portfolio .portfolio-item:not(:first-child) {
+        margin-top: 50px;
+    }
+  .section-prices .price-items {
+      flex-direction: column;
+      align-items: center;
+  }
+  .section-signup .signup-items {
+      flex-direction: column;
+      align-items: center;
+  }
+    .section-prices .price-item:nth-child(2) {
+        margin-top: 180px;
+    }
+
+    .section-signup .signup-form {
+        margin-top: 50px;
+    }
+}
